@@ -1,0 +1,19 @@
+@import url('https://api.fontshare.com/v2/css?f[]=chillax@200,300,400&display=swap');
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Chillax', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
