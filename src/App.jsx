@@ -2,14 +2,15 @@ import { useState } from 'react'
 import './sass/styles.scss'
 import { Horse, Heart, Cube } from "@phosphor-icons/react";
 import { Link, Outlet } from 'react-router-dom';
+import NavBar from './components/NavBar';
 
 function App() {
 
   return (
     <>
-      <nav><Link to={'/'}>In Depth</Link><br/><Link to={'/'}><Horse />Home</Link ><br/><Link to={'/about'}><Heart />About</Link><br/><Link to={'/services'}><Cube />Services</Link><br/><Link to={'/contact'}><Heart />Contact</Link><br/><Link to={'/works'}><Heart />Works</Link><br/><Link to={'/blog'}><Heart />Blog</Link></nav>
+      <NavBar />
       <Outlet />
-      <h1>In Depth Footer</h1>
+      <h1 className='glassmorph'>In Depth Footer</h1>
     </>
   )
 }
