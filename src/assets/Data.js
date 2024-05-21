@@ -105,10 +105,79 @@ export const services = [
 ]
 
 export const works = [
-    {id: 1},
-    {id: 2},
-    {id: 3},
-    {id: 4},
-    {id: 5},
-    {id: 6},
+    {
+        id: 1,
+        title: "E-Group Landing Page",
+        description: "",
+        about: {
+            title: "",
+            description: "",
+        },
+        challenge: {
+            title: "",
+            description: ""
+        },
+        coal: {
+            title: "",
+            description: ""
+        },
+        result: {
+            title: "",
+            description: ""
+        },
+        details: {
+            images: [],
+            link: [],
+            repo: ""
+        }
+    },
+    {
+        id: 2,
+        title: "Younnit.Y - Estrategias de Investimentos",
+        description: "",
+        about: {
+            title: "",
+            description: "",
+        },
+        challenge: {
+            title: "",
+            description: ""
+        },
+        coal: {
+            title: "",
+            description: ""
+        },
+        result: {
+            title: "",
+            description: ""
+        },
+        details: {
+            images: [],
+            link: ['https://youniity.com.br/'],
+            repo: ""
+        }
+    },
+]
+
+export const processes = [
+    {
+        id:1,
+        title: 'Research & Wireframe',
+        description: 'We dive deep into brand and competitor analysis, laying out a blue print with a low-fidelity wireframe. This phase sets the foundation for a successful landing page'
+    },
+    {
+        id: 2,
+        title: 'Design',
+        description: 'Bringing the wireframe to life, our design phase focuses on aesthetics, user experience, and conversion optimization. We ensure your page not only looks good but also performs exceptionally.'
+    },
+    {
+        id: 3,
+        title: 'Development',
+        description: 'Now a litle bit of magic hapens when we turn the design into a fully functional page. With regorous testing and optimization, we ensure seamless performance across devices.'
+    },
+    {
+        id: 4,
+        title: 'Launch',
+        description: "The final step! We integrate the landing page into your site, ensuring everything runs smoothly. You're now ready to impress and convert your clients"
+    }
 ]
